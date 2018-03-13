@@ -23,4 +23,4 @@ Hello!
        
        Once the code is written, go back into Unity and while your spaceship is selected click AddComponent --> Rigidbody2D. Change Gravity Scale to 0 and Linear Drag to 5. 
 
-       ![hello]
+       ![hello](https://github.com/efeAltan/Unity_Coding_Summit/blob/master/Photo%20on%2022-09-2017%20at%2016.05.jpg)
