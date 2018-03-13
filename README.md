@@ -1,4 +1,8 @@
 # Unity_Coding_Summit
 Hello!
-We are the Unity Team in our Computer Science department.
 
+1. Create New Project
+
+  Open Unity and create a new Project by clicking the "New" button.
+
+2. 
