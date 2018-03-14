@@ -1,11 +1,11 @@
 # Unity_Coding_Summit
 Hello!
 
-##**Create New Project**
+## **Create New Project**
 
 Open Unity and create a new Project by clicking the "New" button.
 
-##**Game**
+## **Game**
 
 **1. Assets**
 
