@@ -27,7 +27,11 @@ Right-click on the project panel and click Create --> Animation. Drag your anima
 
 <img width="258" alt="d" src="https://user-images.githubusercontent.com/24539923/37401748-24d095ce-279a-11e8-8805-67ef8fd68304.png">
 
-You will see that a frame is formed at time 0:00. Next, click on the 0:10 time-frame and do the same process in the sprite renderer, this time changing it to "move big". Click on the 0:20 time frame and change the sprite back to "player". Once you are done, stop recording and click on the play button in the animation tab to see the animation running. CLick on the animation in the project panel and clikc "Loop Time" on the inspector. 
+You will see that a frame is formed at time 0:00. Next, click on the 0:10 time-frame and do the same process in the sprite renderer, this time changing it to "move big". Click on the 0:20 time frame and change the sprite back to "player". Once you are done, stop recording and click on the play button in the animation tab to see the animation running. 
+
+<img width="713" alt="e" src="https://user-images.githubusercontent.com/24539923/37401930-c811abc4-279a-11e8-9a1c-4b91a523bb56.png">
+
+CLick on the animation in the project panel and clikc "Loop Time" on the inspector. 
 
 <img width="192" alt="c" src="https://user-images.githubusercontent.com/24539923/37401624-bd3a5f4e-2799-11e8-819c-ef964e642510.png">
 
