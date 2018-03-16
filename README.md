@@ -64,3 +64,9 @@ Let's start with the background color. Click on the main camera and in the inspe
 <img width="167" alt="screen shot 2018-03-16 at 12 57 20" src="https://user-images.githubusercontent.com/24539923/37514731-c1236b60-2919-11e8-9d13-c252569a9df6.png">
 
 <img width="218" alt="screen shot 2018-03-16 at 12 58 00" src="https://user-images.githubusercontent.com/24539923/37514732-c144a42e-2919-11e8-810f-40b5184a7147.png">
+
+**8. Bullet Collision and Spawn Time**
+
+Create a new script called "BulletScript" and add it to your bullet prefab. Create a private float called spawn_time and set it to 0. In the Start() method, reset it to Time.time. In the Update() method, write an if statement, setting the conditional to Time.time - spawn_time > 1, meaning that the bullet will only appear in the game for 1 second. In the if statement, write Destroy(gameObject), meaning that the bullet will destroy itself.
+
+Create a new void called OnCollisionEnter2D with the paramatet "Collision2D col". Create an if statement and give it the conditional col.gameObject.tag == "wall", meaning that if the bullet collides with our wall, the bullet will be destroyed. For this, write the same destroy method in the if statement. Save the code and return to unity. Go to our wall objects and create and add a new tag called "wall" from the inspector. Now when we shoot, the bullet is destroyed when it collides with the walls.
