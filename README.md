@@ -72,3 +72,5 @@ Create a new script called "BulletScript" and add it to your bullet prefab. Crea
 Create a new void called OnCollisionEnter2D with the paramatet "Collision2D col". Create an if statement and give it the conditional col.gameObject.tag == "wall", meaning that if the bullet collides with our wall, the bullet will be destroyed. For this, write the same destroy method in the if statement. Save the code and return to unity. Go to our wall objects and create and add a new tag called "wall" from the inspector. Now when we shoot, the bullet is destroyed when it collides with the walls.
 
 <img width="116" alt="screen shot 2018-03-16 at 13 09 10" src="https://user-images.githubusercontent.com/24539923/37515261-48bcdef2-291b-11e8-9415-fdc26969221d.png">
+
+<img width="360" alt="screen shot 2018-03-16 at 13 09 24" src="https://user-images.githubusercontent.com/24539923/37515262-48dfe80c-291b-11e8-9570-52f6736704c5.png">
