@@ -52,3 +52,5 @@ When we go back to Unity, we create a bullet prefab by dragging it to the scene 
 **6. Screen Limits**
 
 Right now, if you continue to go up, down, left or right with the spaceship, it is possible to go out of the screen. To prevent this we are going to manually create invisible walls. In the hierarchy create an empty game object and a box collider component. Alter the collider's size so that it is equal to or larget than the camera's vertical component. Repeat this same process for the other sides of the camera. Then create another emppty game objects and call it "walls". Drag the other four objects into it (just to make our hierarchy more clean .) )
+
+<img width="194" alt="screen shot 2018-03-16 at 12 33 22" src="https://user-images.githubusercontent.com/24539923/37513515-5a40f230-2916-11e8-8919-3dfc98552056.png">
