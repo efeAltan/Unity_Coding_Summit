@@ -38,3 +38,7 @@ CLick on the animation in the project panel and clikc "Loop Time" on the inspect
 When you start the game, the animation should be running infinitely.
 
 <img width="137" alt="b" src="https://user-images.githubusercontent.com/24539923/37401580-94250ece-2799-11e8-8e1f-b41ac8d14a4d.png">
+
+**5. Bullet**
+
+Go back into your Game script and create a new public GameObject called "bullet". Also, create a public staticc boolean called "can_spawn_bullet" and set it to true. Next in the Update() method, we are going to write a code block that shoots a bullet when we press the space bar. We write an if statement which checks if we get input from the space bar. Inside a that if, write another if, this time writing can_spawn_bullet as the conditional. If can_spawn_bullet is true, so if we can shoot, shoot the bullet. However, the shooting mechanic is basically spawning our bullet object inside our player and making it move toward the right side of the screen. We can do this using the Instantiate method. After we spawn the desired object in the desired position with the desired rotation, we give it 
