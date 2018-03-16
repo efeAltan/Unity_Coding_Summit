@@ -57,3 +57,7 @@ Right now, if you continue to go up, down, left or right with the spaceship, it 
 
 <img width="318" alt="screen shot 2018-03-16 at 12 33 32" src="https://user-images.githubusercontent.com/24539923/37513517-5a633ffc-2916-11e8-8a34-32b2d0f10b17.png">
 
+**7. Esthetics, Life Icons and Background**
+
+Let's start with the background color. Click on the main camera and in the inspector, change the color next to "Background". For now, let's change it to black. Next, let's scale down our spacehip a bit. In the inspector, change the X and Y components of "Scale" to 3. Now, let's create our icons for our health. Right click in the hierarchy and create UI --> Text. A canvas along with the text will form. Drag the text to the top-left corner in the canvas and change its color to white. From the inspector, change "Text" to "Lives:". Next, drag a "health full" from the project panel to the hierarchy. Duplicate it twice and put them side by side next to the lives text. Now, we have our UI for our health ready. Later, we are going to link the UI with the damage that the spaceship takes.
+
